@@ -14,4 +14,5 @@ It is a sample learning project app
 10. The server fetches the files from a remote sql database and returns it to client using apollo server and graphql.
 11. Several edge cases were also handled, eg. user pressing back button in middle of adding story or updating photo will not affect anything.
 
-## Reference Images
+## Reference Screen Recording
+<a href="url"><img src="recording.gif" width="300" ></a>
