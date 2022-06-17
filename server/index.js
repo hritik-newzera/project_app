@@ -7,9 +7,9 @@ const util = require("util");
 
 const db_config = {
   host: "remotemysql.com",
-  user: "oSnkbkcv9S",
-  password: "QCyV3UWO3i",
-  database: "oSnkbkcv9S",
+  user: "<your_user_name>",
+  password: "<your_password>",
+  database: "<your_database>",
 };
 
 let userData = {
@@ -68,7 +68,7 @@ const resolvers = {
     addProfilePicture: async (parent, args) => {
       try {
         const queryString =
-          "UPDATE  `User Data` SET Photo = '" +
+          "UPDATE  `<your_table>` SET Photo = '" +
           args.photoData +
           "' WHERE ID = 1";
         await query(queryString);
